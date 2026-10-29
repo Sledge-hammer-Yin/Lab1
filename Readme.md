@@ -133,8 +133,8 @@ The report must contain the following parts (code listings in the report: at mos
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/weisongwen/AAE4203-S12627.git
-cd AAE4203-S12627/Lab1
+git clone https://github.com/Sledge-hammer-Yin/Lab1.git
+cd Lab1
 ```
 
 ### 2. Install Python Dependencies
