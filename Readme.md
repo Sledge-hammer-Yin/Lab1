@@ -4,11 +4,11 @@ A comprehensive toolkit for processing GNSS UBX data files and performing Single
 
 ---
 
-## 快速开始 Quick Start
+## Quick Start
 
-本页保留原课程的实验报告、提交、评分和 AI 使用要求；以下补齐可直接运行的入口。
-完整中文步骤见 [运行说明](docs/运行说明.md)，数据来源见 [资料来源](docs/资料来源.md)。
-所有命令均从本仓库的 `Lab1` 目录运行。Python 数值入口只需要 NumPy。
+Course report, submission, grading and AI-use rules are retained below. The commands here provide runnable entry points.
+See [running instructions](docs/running_instructions.md) and [data sources](docs/data_sources.md).
+Run all commands from the `Lab1` directory. The numerical Python code only needs NumPy.
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -18,13 +18,13 @@ python WLSE_spp.py --mode gps --input-dir benchmark/preprocessed_gps --output-di
 python tools/check_submission.py outputs/benchmark/G01_benchmark.csv --week 2158 --epoch-file benchmark/preprocessed_gps/epochs.csv
 ```
 
-- **历史示例**：186/186历元，复现课件的2D/3D差异RMS 37.910758/51.042844 m，比较对象是接收机参考，不是真值。
-- **基准GPS路线**：从附带的OBS/NAV生成的GPS测量缓存求解1437/1534历元，覆盖率93.6767%；仅通过数量与格式检查不代表准确度或排名。
-- `dataset/` 为186历元配套示例；`benchmark/` 为1534历元UrbanNav及清理后的NAV；`benchmark/preprocessed_gps/` 供无MATLAB者先跑Python。
-- `historical` 仅用于历史数值复现；`gps` 是GPS L1基线，不包含多星座扩展。学生的报告、改进与数据分析要求仍以下方原课程规则为准。
-- `G01` 是演示组号；实际使用本组编号。历史示例的 `G01_owndata.csv` 不是本组自采成果。
-- 两份PDF、报告模板、第三方工具箱和原流程图片沿用老师仓库文件；图例与本次无界面数值入口的输出应分开理解。
-- 检查器同步严格表头、三位小数坐标、有限数值与时间顺序；同时保留课程文件名及地球表面范围检查。最终接收和评分以线上平台为准。
+- **Historical example:** 186/186 epochs; 2D/3D RMS differences of 37.910758/51.042844 m against the receiver reference, not ground truth.
+- **GPS benchmark:** 1437/1534 epochs solved from the included OBS/NAV-derived inputs, or 93.6767% coverage. Format and count checks do not establish accuracy or rank.
+- `dataset/` contains the 186-epoch example; `benchmark/` contains 1534-epoch UrbanNav and cleaned NAV. `benchmark/preprocessed_gps/` supports a first Python run without MATLAB.
+- `historical` reproduces the historical example; `gps` is a GPS L1 baseline, without multi-constellation support. Course requirements below still apply.
+- `G01` is an example group number; use your own. The historical `G01_owndata.csv` is not your field data.
+- The report template, third-party toolbox and workflow images come from the course materials. The figures and current non-GUI numerical outputs should be interpreted separately.
+- The checker validates headers, three-decimal coordinates, finite values, time order, course filenames and Earth-surface bounds. Final acceptance and scoring are determined by the online platform.
 
 ## Table of Contents
 
@@ -82,7 +82,7 @@ This pipeline provides a complete workflow for GNSS data processing, from raw UB
 | Example (Block X, 2025) | UBX log, RINEX .obs/.nav, CSV files from `rinex2csv.m`, receiver solution (NAV-HPPOSECEF), example Python code | reference results provided | Warm-up and regression test: check that your code reproduces the example results |
 | UrbanNav benchmark | `UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs` and `UrbanNav_20210521_multiGNSS_clean.nav` | kept by the teaching team | Accuracy challenge and leaderboard |
 
-The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/资料来源.md).
+The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/data_sources.md).
 
 ---
 
@@ -328,7 +328,7 @@ For numerical regression, malformed-CSV checks, missing-epoch checks and package
 python tools/verify_package.py
 ```
 
-Chinese instructions: [运行说明](docs/运行说明.md). Local verification and limitations: [本地验证](docs/本地验证.md).
+See [running instructions](docs/running_instructions.md) and [local verification](docs/local_verification.md).
 
 ## Step 5: Accuracy Challenge and Leaderboard
 

@@ -1,7 +1,7 @@
 {
   "base_commit": "ead5920dd0561d2beaf9ca2c15a899b337d825d1",
-  "description": "Merged Lab1 files; excludes runtime outputs and caches.",
-  "file_count": 649,
+  "description": "Lab1 files; excludes both manifest copies and runtime outputs.",
+  "file_count": 652,
   "files": [
     {
       "path": ".gitattributes",
@@ -15,13 +15,53 @@
     },
     {
       "path": "AAE4203_26_27_S1_Lab_Tutorial.pdf",
-      "bytes": 4094576,
-      "sha256": "5835e33a006e0f3e0232b9d5b576402f69e1f745afa5c45c1b33595481e27779"
+      "bytes": 3838537,
+      "sha256": "30376df54a348cc487453cd0777d2d4095e796a799f17bb249cf3983b82d92a3"
     },
     {
       "path": "AAE4203_Week9_GNSS_Lab_Slides.pdf",
-      "bytes": 4567948,
-      "sha256": "62e4e65362d06277e6898a8ae627efdb318d73804006f0411d3560ae3cf51eac"
+      "bytes": 4876400,
+      "sha256": "548a0c5f3151a99fe10476344cde2ba9427b6c819b34758494ac71af10a448b7"
+    },
+    {
+      "path": "COM6___9600_250916_020025_blockz.ubx",
+      "bytes": 3425447,
+      "sha256": "e6955de459485f425a5bdf7f4cf799346a0f11d55ddcfd263c8c6111c28951a7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "b9e04c7d80b43e53f7651120d7f6913a159d79365bc6efca4a33f357254040a1"
+    },
+    {
+      "path": "PolyU_AAE4203_Lab_report_template.docx",
+      "bytes": 92484,
+      "sha256": "ddca268628c2e4b2f13b59afe1981d8b4fcf217cb86f2363fdf2f94e0a78f0fe"
+    },
+    {
+      "path": "Readme.md",
+      "bytes": 23970,
+      "sha256": "db7535a0abe90dd29c61659e0ee462b7ecdf68c988177e594365bf36b870118e"
+    },
+    {
+      "path": "WLSE_spp.py",
+      "bytes": 9575,
+      "sha256": "5c6c8febaf0658ed003998254f130f1629699ebc36b166c84cc3d79441234d78"
+    },
+    {
+      "path": "benchmark/README.md",
+      "bytes": 860,
+      "sha256": "2ac277a13c3e526e75e15d911b44c10ae1fd69eb41db3703a3cdba859c778ca7"
+    },
+    {
+      "path": "benchmark/UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs",
+      "bytes": 5760685,
+      "sha256": "b357a8b9847d50d8cd10cd9afdc5d80a046c050c7ded1748710ce784d90ce40a"
+    },
+    {
+      "path": "benchmark/UrbanNav_20210521_multiGNSS_clean.nav",
+      "bytes": 1547657,
+      "sha256": "38c83f4007aab06a88074591054d511a4b132c2798ad90d85d7ead4bfca7cf88"
     },
     {
       "path": "benchmark/preprocessed_gps/conversion_summary.txt",
@@ -79,26 +119,6 @@
       "sha256": "1d2d5bae7282b2cb14235319067155547183158328166f0cb26bb3faae4b02bf"
     },
     {
-      "path": "benchmark/README.md",
-      "bytes": 777,
-      "sha256": "db66a580d5a8d8e352bd1c6f02504c5af204c2ec02431861a64b8d23a4a93a48"
-    },
-    {
-      "path": "benchmark/UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs",
-      "bytes": 5760685,
-      "sha256": "b357a8b9847d50d8cd10cd9afdc5d80a046c050c7ded1748710ce784d90ce40a"
-    },
-    {
-      "path": "benchmark/UrbanNav_20210521_multiGNSS_clean.nav",
-      "bytes": 1547657,
-      "sha256": "38c83f4007aab06a88074591054d511a4b132c2798ad90d85d7ead4bfca7cf88"
-    },
-    {
-      "path": "COM6___9600_250916_020025_blockz.ubx",
-      "bytes": 3425447,
-      "sha256": "e6955de459485f425a5bdf7f4cf799346a0f11d55ddcfd263c8c6111c28951a7"
-    },
-    {
       "path": "dataset/COM6___9600_250916_020025_blockz.kml",
       "bytes": 10640,
       "sha256": "ef9ff0ab7e83775055a9340009b81055d247c9c61bfe1649e882badcc61e3882"
@@ -119,6 +139,16 @@
       "sha256": "71948f6e32cf20f2444aa780a60969c0e23bf4716bde5bb1df65bb91fa26f1c3"
     },
     {
+      "path": "dataset/NAV-HPPOSECEF.csv",
+      "bytes": 12151,
+      "sha256": "056e133a797a4220d2dfd2d495c044839fa6e210f6ff5d0c39fea2bbab23c41d"
+    },
+    {
+      "path": "dataset/README.md",
+      "bytes": 1008,
+      "sha256": "b06600db3fb21e48ba86f52786690c5677bdf54eefd099c25f4ad58672a6e071"
+    },
+    {
       "path": "dataset/epochs.csv",
       "bytes": 3740,
       "sha256": "f4a262c1af2d41cf427925bc60eb427f8fa1dea9b6b083eae357d45116c5ea6d"
@@ -129,19 +159,9 @@
       "sha256": "83830c3ae5ae46a3f421cff1d1210e443750e64876380c79c38107546d3cc02d"
     },
     {
-      "path": "dataset/NAV-HPPOSECEF.csv",
-      "bytes": 12151,
-      "sha256": "056e133a797a4220d2dfd2d495c044839fa6e210f6ff5d0c39fea2bbab23c41d"
-    },
-    {
       "path": "dataset/pseudoranges_meas.csv",
       "bytes": 54595,
       "sha256": "cc1a488349edf7b3a267c5585d812fb4fca62c8c77eae64bcae6a8be89c17b27"
-    },
-    {
-      "path": "dataset/README.md",
-      "bytes": 981,
-      "sha256": "f1074c0c97308f1458398f228896324569625dbfb6099e4057e986bcf12440b3"
     },
     {
       "path": "dataset/reference_results/estimated_positions.csv",
@@ -169,19 +189,34 @@
       "sha256": "4383bcdbfc372f8bc8fb1e6ccf24d95b3a91bf021e34acba8f5c84db58f26b19"
     },
     {
-      "path": "docs/本地验证.md",
-      "bytes": 4057,
-      "sha256": "2a3f269f5faba8770a72c5f375c90c4c0af938fee817423523935dbc75ac4dc6"
+      "path": "docs/data_sources.md",
+      "bytes": 3456,
+      "sha256": "a081c496ac932e20979478f010be213cbc6504fa0f86ce984cce75484ee113d9"
     },
     {
-      "path": "docs/资料来源.md",
-      "bytes": 4249,
-      "sha256": "4996f78ef2b83f0b9e38b557f75b29b62b9cc90d6aa76615d4bd9f582e56af75"
+      "path": "docs/local_verification.md",
+      "bytes": 3173,
+      "sha256": "074df9e2ce32e0fffbb8bc349da888414f20168623158a07c0d0bd24fe15e215"
     },
     {
-      "path": "docs/运行说明.md",
-      "bytes": 6476,
-      "sha256": "1dcc6f090cf6ec9ed40fd872b461d47692454c2fe6780328bd90d1b8e25aa0ee"
+      "path": "docs/running_instructions.md",
+      "bytes": 5678,
+      "sha256": "9dd3f3727df7f751fbe144472c37650f017b1149f7337296d721797f80d4cb1a"
+    },
+    {
+      "path": "docs/\u672c\u5730\u9a8c\u8bc1.md",
+      "bytes": 3173,
+      "sha256": "074df9e2ce32e0fffbb8bc349da888414f20168623158a07c0d0bd24fe15e215"
+    },
+    {
+      "path": "docs/\u8d44\u6599\u6765\u6e90.md",
+      "bytes": 3456,
+      "sha256": "a081c496ac932e20979478f010be213cbc6504fa0f86ce984cce75484ee113d9"
+    },
+    {
+      "path": "docs/\u8fd0\u884c\u8bf4\u660e.md",
+      "bytes": 5678,
+      "sha256": "9dd3f3727df7f751fbe144472c37650f017b1149f7337296d721797f80d4cb1a"
     },
     {
       "path": "examples/Figure_1.png",
@@ -229,6 +264,11 @@
       "sha256": "dc7b12bf2624527cc4812cf2a8aa102332a0e0f8b1c785ffa530af118589cdbc"
     },
     {
+      "path": "legacy/WLSE_spp_2025.py",
+      "bytes": 27145,
+      "sha256": "9cee3856c7335eaeea168b5e7c1dc64f2a25647bf2ceae5f39b4b579d7471348"
+    },
+    {
       "path": "legacy/check_submission_course_original.py",
       "bytes": 2095,
       "sha256": "c6fddb66a6f6d593822f8b8d9f624dc5e469e390f7f76c51b40e97808576371e"
@@ -242,16 +282,6 @@
       "path": "legacy/rinex2csv_course_original.m",
       "bytes": 6170,
       "sha256": "c302b09ee21b1f1ffa99687a4dc21521770894d73ddf429c597aa020b5c8235d"
-    },
-    {
-      "path": "legacy/WLSE_spp_2025.py",
-      "bytes": 27145,
-      "sha256": "9cee3856c7335eaeea168b5e7c1dc64f2a25647bf2ceae5f39b4b579d7471348"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1066,
-      "sha256": "b9e04c7d80b43e53f7651120d7f6913a159d79365bc6efca4a33f357254040a1"
     },
     {
       "path": "matRTKLIB/+gt/+C/ARMODE.m",
@@ -359,14 +389,14 @@
       "sha256": "b71cd8c4fe9f7791201ebf379a112586cd98c7ba859353807c4a7ff5d02a040f"
     },
     {
-      "path": "matRTKLIB/+gt/+C/STR_MODE.m",
-      "bytes": 196,
-      "sha256": "60ca892f2e816cf4f5a997eef3edde3d7a2dcdff3a2207cccf376eb20e085a0a"
-    },
-    {
       "path": "matRTKLIB/+gt/+C/STRFMT.m",
       "bytes": 1111,
       "sha256": "a5710a3212dda69dcb37a7d0d71213668c4ea42c1d0c042d17dbe1b7366b706c"
+    },
+    {
+      "path": "matRTKLIB/+gt/+C/STR_MODE.m",
+      "bytes": 196,
+      "sha256": "60ca892f2e816cf4f5a997eef3edde3d7a2dcdff3a2207cccf376eb20e085a0a"
     },
     {
       "path": "matRTKLIB/+gt/+C/SWITCH.m",
@@ -494,6 +524,11 @@
       "sha256": "de009842e240d88ac1c2d3ee4a1818826a1a81bb1cc9c2432380488687f3f554"
     },
     {
+      "path": "matRTKLIB/+gt/README.md",
+      "bytes": 711,
+      "sha256": "11e0be58dbc1c758f01e8c456a687c5ac72bcafa45893842b6e0612c4cc2f866"
+    },
+    {
       "path": "matRTKLIB/+gt/ionospheric_delay.csv",
       "bytes": 55701,
       "sha256": "48771da1d0f42a7337281af4a80937b756ac6a0ec1a9a3f95cf0c008f64aea3c"
@@ -502,11 +537,6 @@
       "path": "matRTKLIB/+gt/pseudoranges_meas.csv",
       "bytes": 42916,
       "sha256": "35806834630aa63b9d49bbf52aa1cd668ab9b041c054177791fbc1341b2d893f"
-    },
-    {
-      "path": "matRTKLIB/+gt/README.md",
-      "bytes": 711,
-      "sha256": "11e0be58dbc1c758f01e8c456a687c5ac72bcafa45893842b6e0612c4cc2f866"
     },
     {
       "path": "matRTKLIB/+gt/satellite_clock_bias.csv",
@@ -2339,6 +2369,16 @@
       "sha256": "0844b16e07638f7fc119d3268384fa680a559f8a0db610c294fbaaedbbd639a1"
     },
     {
+      "path": "matRTKLIB/LICENSE",
+      "bytes": 1089,
+      "sha256": "70e8c1972c110cf996cfbf5b10cec16eeb2e2cd40eff843bbb5cd4dc469db5e7"
+    },
+    {
+      "path": "matRTKLIB/README.md",
+      "bytes": 3165,
+      "sha256": "ad6ffc8af43c2001c501b20f7ce85fc34fed7f411eb642173154aac29d240fad"
+    },
+    {
       "path": "matRTKLIB/compile.m",
       "bytes": 13381,
       "sha256": "5ef36c1e47b9f686f79bba8a1543bbfb16cfbb227789919ece48950965eb7110"
@@ -2392,6 +2432,26 @@
       "path": "matRTKLIB/doc/manual.pdf",
       "bytes": 681284,
       "sha256": "77013a41c68b1fc8cd2338dd0712303e5fe5df806acebfec5b5867f6541c9551"
+    },
+    {
+      "path": "matRTKLIB/examples/Example1_visualization_RINEX_observation.m",
+      "bytes": 566,
+      "sha256": "58f3379440299dff22f25d11937c794e7df08f628000613ec5c5b0198c853e58"
+    },
+    {
+      "path": "matRTKLIB/examples/Example2_PPK_analysis.m",
+      "bytes": 787,
+      "sha256": "92ea913ace5f3f0f37a48482a617dc58fa35439fd9f4fd14376c17cdc3689f7e"
+    },
+    {
+      "path": "matRTKLIB/examples/Example3_Positioning_error_analysis.m",
+      "bytes": 646,
+      "sha256": "8cc67b8c69d9c26cb8b835388070667d64f3334d9b33b74f0e8960442054ad7a"
+    },
+    {
+      "path": "matRTKLIB/examples/README.md",
+      "bytes": 3336,
+      "sha256": "4ad8960872b79033b4c704c57fde307b2e443f27c492816878ad651ee894f809"
     },
     {
       "path": "matRTKLIB/examples/compute_double_difference.m",
@@ -2609,21 +2669,6 @@
       "sha256": "475f1b610cd3087a35db45ab775a6e5758741aa910883bde42abaf7d0cc370f8"
     },
     {
-      "path": "matRTKLIB/examples/Example1_visualization_RINEX_observation.m",
-      "bytes": 566,
-      "sha256": "58f3379440299dff22f25d11937c794e7df08f628000613ec5c5b0198c853e58"
-    },
-    {
-      "path": "matRTKLIB/examples/Example2_PPK_analysis.m",
-      "bytes": 787,
-      "sha256": "92ea913ace5f3f0f37a48482a617dc58fa35439fd9f4fd14376c17cdc3689f7e"
-    },
-    {
-      "path": "matRTKLIB/examples/Example3_Positioning_error_analysis.m",
-      "bytes": 646,
-      "sha256": "8cc67b8c69d9c26cb8b835388070667d64f3334d9b33b74f0e8960442054ad7a"
-    },
-    {
       "path": "matRTKLIB/examples/generate_configuration_file.m",
       "bytes": 672,
       "sha256": "d6cd454e9a331c5b393b9b7ffe0adb6050fc99c38f28564b0ccadfc3a214e339"
@@ -2664,19 +2709,9 @@
       "sha256": "bdbbe6336d411c48203b2200dbea8d5fe44c5abf3685c9bcfae67a6cf5866826"
     },
     {
-      "path": "matRTKLIB/examples/README.md",
-      "bytes": 3336,
-      "sha256": "4ad8960872b79033b4c704c57fde307b2e443f27c492816878ad651ee894f809"
-    },
-    {
-      "path": "matRTKLIB/LICENSE",
-      "bytes": 1089,
-      "sha256": "70e8c1972c110cf996cfbf5b10cec16eeb2e2cd40eff843bbb5cd4dc469db5e7"
-    },
-    {
-      "path": "matRTKLIB/README.md",
-      "bytes": 3165,
-      "sha256": "ad6ffc8af43c2001c501b20f7ce85fc34fed7f411eb642173154aac29d240fad"
+      "path": "matRTKLIB/src/README.md",
+      "bytes": 7675,
+      "sha256": "5698063a8c25af577c5c086438f9433b3a2ec66b84b468e476725098dbfd590b"
     },
     {
       "path": "matRTKLIB/src/mex/adjgpsweek.c",
@@ -3184,24 +3219,9 @@
       "sha256": "73bb926e06e09a9bad6592232347de1d28e13675d01ca68770667739eeec14fc"
     },
     {
-      "path": "matRTKLIB/src/README.md",
-      "bytes": 7675,
-      "sha256": "5698063a8c25af577c5c086438f9433b3a2ec66b84b468e476725098dbfd590b"
-    },
-    {
-      "path": "PolyU_AAE4203_Lab_report_template.docx",
-      "bytes": 95888,
-      "sha256": "0f14757e33469020a54c7f8c4682fe0dcd11cb900fb44fbc0597580dca21c3ea"
-    },
-    {
       "path": "pyubx2_csv_converter_gui.py",
       "bytes": 7754,
       "sha256": "a5c1f3a77b3c62d2ab8c0c97a5dc24554981a91d5153b8b1b1c68ea7ab75e5db"
-    },
-    {
-      "path": "Readme.md",
-      "bytes": 24020,
-      "sha256": "0d4e77801d52bb7d6619d2b72418c29303c7e0ba02ccb13e0b00c12088745e7d"
     },
     {
       "path": "requirements-optional.txt",
@@ -3240,13 +3260,8 @@
     },
     {
       "path": "tools/verify_package.py",
-      "bytes": 5639,
-      "sha256": "9c285a8d7249a4646bf3ecf9b65aad53ba7e5c1c4bcb9a034ed64d9e85d65b9d"
-    },
-    {
-      "path": "WLSE_spp.py",
-      "bytes": 9575,
-      "sha256": "5c6c8febaf0658ed003998254f130f1629699ebc36b166c84cc3d79441234d78"
+      "bytes": 5640,
+      "sha256": "42dbbb68dece3b1594283ce079ef6e7d88c7dc1fa4d0492599b34a1956ea4574"
     }
   ]
 }
