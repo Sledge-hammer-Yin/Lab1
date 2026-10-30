@@ -104,4 +104,4 @@ Select the root `COM6___9600_250916_020025_blockz.ubx` and output to `outputs/re
 
 The original grading, report length, AI use, submission and ranking rules remain in `Readme.md` and the course documents. The two PDFs, report template, MatRTKLIB and original workflow figures are retained. The MATLAB entry point takes three arguments: `rinex2csv(obs_file, nav_file, out_dir)`.
 
-The standard-library CSV checker supports the original single-file call and `--week`, `--epochs` and `--epoch-file`. It also checks the course filename and Earth-surface bounds. Passing locally does not guarantee online acceptance. See [local verification](%E6%9C%AC%E5%9C%B0%E9%AA%8C%E8%AF%81.md).
+The standard-library CSV checker supports the original single-file call and `--week`, `--epochs` and `--epoch-file`. It also checks the course filename and Earth-surface bounds. Passing locally does not guarantee online acceptance. See [local verification](local_verification.md).

@@ -9,7 +9,7 @@ A comprehensive toolkit for processing GNSS UBX data files and performing Single
 ## Quick Start
 
 This page retains the course requirements for reports, submissions, grading and AI use.
-See the [run guide](docs/%E8%BF%90%E8%A1%8C%E8%AF%B4%E6%98%8E.md) and [data sources](docs/%E8%B5%84%E6%96%99%E6%9D%A5%E6%BA%90.md).
+See the [run guide](docs/running_instructions.md) and [data sources](docs/data_sources.md).
 Run all commands from the repository root. The Python solver only requires NumPy.
 
 ```powershell
@@ -84,7 +84,7 @@ This pipeline provides a complete workflow for GNSS data processing, from raw UB
 | Example (Block X, 2025) | UBX log, RINEX .obs/.nav, CSV files from `rinex2csv.m`, receiver solution (NAV-HPPOSECEF), example Python code | reference results provided | Warm-up and regression test: check that your code reproduces the example results |
 | UrbanNav benchmark | `UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs` and `UrbanNav_20210521_multiGNSS_clean.nav` | kept by the teaching team | Accuracy challenge and leaderboard |
 
-The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/%E8%B5%84%E6%96%99%E6%9D%A5%E6%BA%90.md).
+The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/data_sources.md).
 
 ---
 
@@ -330,7 +330,7 @@ For numerical regression, malformed-CSV checks, missing-epoch checks and package
 python tools/verify_package.py
 ```
 
-See the [run guide](docs/%E8%BF%90%E8%A1%8C%E8%AF%B4%E6%98%8E.md) and [local verification and limitations](docs/%E6%9C%AC%E5%9C%B0%E9%AA%8C%E8%AF%81.md).
+See the [run guide](docs/running_instructions.md) and [local verification and limitations](docs/local_verification.md).
 
 ## Step 5: Accuracy Challenge and Leaderboard
 

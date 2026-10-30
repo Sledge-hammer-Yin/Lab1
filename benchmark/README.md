@@ -10,4 +10,4 @@ This folder contains observations, cleaned broadcast navigation data and reusabl
 
 See the root `Readme.md` for a quick start. The navigation file contains multiple constellations, but this baseline uses GPS only. Preprocessing leaves failed epochs as NaN; Python omits them and records the reasons. Do not use the example NAV from a different year with the 2021 OBS.
 
-See [data sources](../docs/%E8%B5%84%E6%96%99%E6%9D%A5%E6%BA%90.md) for provenance and cleaning details.
+See [data sources](../docs/data_sources.md) for provenance and cleaning details.

@@ -1,7 +1,7 @@
 {
   "base_commit": "ead5920dd0561d2beaf9ca2c15a899b337d825d1",
-  "description": "Lab1 files; excludes both manifest copies and runtime outputs.",
-  "file_count": 652,
+  "description": "Lab1 files; excludes this manifest and runtime outputs.",
+  "file_count": 649,
   "files": [
     {
       "path": ".gitattributes",
@@ -40,8 +40,8 @@
     },
     {
       "path": "Readme.md",
-      "bytes": 24098,
-      "sha256": "f7970eb4aec5a1faeeb900bf25fe1c1e05f6b3f771b16dcec4cb2be319dc9c6b"
+      "bytes": 24000,
+      "sha256": "dbe83553639e74a95aec14e5473fc7f0e1e069e18c694937ff529e60b1b45c3b"
     },
     {
       "path": "WLSE_spp.py",
@@ -50,8 +50,8 @@
     },
     {
       "path": "benchmark/README.md",
-      "bytes": 910,
-      "sha256": "1cf7249f62c1ea1061cf52c34755e4d6b206e380e79070be13e821f55ed096f8"
+      "bytes": 886,
+      "sha256": "af4b92d1f791f16915494119a7f8033085b0b0b24b806cd9033d49d13cc9b713"
     },
     {
       "path": "benchmark/UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs",
@@ -200,23 +200,8 @@
     },
     {
       "path": "docs/running_instructions.md",
-      "bytes": 6150,
-      "sha256": "99636ecfc619f5b57a002582193456744cd6216450607fd80102fb728692f42a"
-    },
-    {
-      "path": "docs/\u672c\u5730\u9a8c\u8bc1.md",
-      "bytes": 4224,
-      "sha256": "fa91ab631d9e114c4b7d6fb2e8b314731007b014209b309bbcef6776663318c9"
-    },
-    {
-      "path": "docs/\u8d44\u6599\u6765\u6e90.md",
-      "bytes": 4368,
-      "sha256": "426f8b3b6ea408475f6182dfabecd2a4e17c8b8dc0c2ed79bba8f744953ed978"
-    },
-    {
-      "path": "docs/\u8fd0\u884c\u8bf4\u660e.md",
-      "bytes": 6150,
-      "sha256": "99636ecfc619f5b57a002582193456744cd6216450607fd80102fb728692f42a"
+      "bytes": 6132,
+      "sha256": "fce2494446361df0599b45ad3130c361a532410e41a86b376e2b9955cd8ee197"
     },
     {
       "path": "examples/Figure_1.png",
