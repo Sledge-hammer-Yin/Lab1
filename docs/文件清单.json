@@ -1,6 +1,6 @@
 {
   "base_commit": "ead5920dd0561d2beaf9ca2c15a899b337d825d1",
-  "description": "Merged Lab1 files; excludes runtime outputs and caches.",
+  "description": "Current Lab1 files; excludes runtime outputs and caches.",
   "file_count": 649,
   "files": [
     {
@@ -15,13 +15,13 @@
     },
     {
       "path": "AAE4203_26_27_S1_Lab_Tutorial.pdf",
-      "bytes": 4094576,
-      "sha256": "5835e33a006e0f3e0232b9d5b576402f69e1f745afa5c45c1b33595481e27779"
+      "bytes": 3838537,
+      "sha256": "30376df54a348cc487453cd0777d2d4095e796a799f17bb249cf3983b82d92a3"
     },
     {
       "path": "AAE4203_Week9_GNSS_Lab_Slides.pdf",
-      "bytes": 4567948,
-      "sha256": "62e4e65362d06277e6898a8ae627efdb318d73804006f0411d3560ae3cf51eac"
+      "bytes": 4876400,
+      "sha256": "548a0c5f3151a99fe10476344cde2ba9427b6c819b34758494ac71af10a448b7"
     },
     {
       "path": "benchmark/preprocessed_gps/conversion_summary.txt",
@@ -80,8 +80,8 @@
     },
     {
       "path": "benchmark/README.md",
-      "bytes": 777,
-      "sha256": "db66a580d5a8d8e352bd1c6f02504c5af204c2ec02431861a64b8d23a4a93a48"
+      "bytes": 910,
+      "sha256": "1cf7249f62c1ea1061cf52c34755e4d6b206e380e79070be13e821f55ed096f8"
     },
     {
       "path": "benchmark/UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs",
@@ -140,8 +140,8 @@
     },
     {
       "path": "dataset/README.md",
-      "bytes": 981,
-      "sha256": "f1074c0c97308f1458398f228896324569625dbfb6099e4057e986bcf12440b3"
+      "bytes": 1113,
+      "sha256": "8f024250baf973a1d2164163fea4eeadb89fa99af1266d0d44ec078ac53b662d"
     },
     {
       "path": "dataset/reference_results/estimated_positions.csv",
@@ -169,19 +169,19 @@
       "sha256": "4383bcdbfc372f8bc8fb1e6ccf24d95b3a91bf021e34acba8f5c84db58f26b19"
     },
     {
-      "path": "docs/本地验证.md",
-      "bytes": 4057,
-      "sha256": "2a3f269f5faba8770a72c5f375c90c4c0af938fee817423523935dbc75ac4dc6"
+      "path": "docs/\u672c\u5730\u9a8c\u8bc1.md",
+      "bytes": 4224,
+      "sha256": "fa91ab631d9e114c4b7d6fb2e8b314731007b014209b309bbcef6776663318c9"
     },
     {
-      "path": "docs/资料来源.md",
-      "bytes": 4249,
-      "sha256": "4996f78ef2b83f0b9e38b557f75b29b62b9cc90d6aa76615d4bd9f582e56af75"
+      "path": "docs/\u8d44\u6599\u6765\u6e90.md",
+      "bytes": 4368,
+      "sha256": "426f8b3b6ea408475f6182dfabecd2a4e17c8b8dc0c2ed79bba8f744953ed978"
     },
     {
-      "path": "docs/运行说明.md",
-      "bytes": 6476,
-      "sha256": "1dcc6f090cf6ec9ed40fd872b461d47692454c2fe6780328bd90d1b8e25aa0ee"
+      "path": "docs/\u8fd0\u884c\u8bf4\u660e.md",
+      "bytes": 6150,
+      "sha256": "99636ecfc619f5b57a002582193456744cd6216450607fd80102fb728692f42a"
     },
     {
       "path": "examples/Figure_1.png",
@@ -3200,8 +3200,8 @@
     },
     {
       "path": "Readme.md",
-      "bytes": 24020,
-      "sha256": "0d4e77801d52bb7d6619d2b72418c29303c7e0ba02ccb13e0b00c12088745e7d"
+      "bytes": 24098,
+      "sha256": "f7970eb4aec5a1faeeb900bf25fe1c1e05f6b3f771b16dcec4cb2be319dc9c6b"
     },
     {
       "path": "requirements-optional.txt",
@@ -3240,8 +3240,8 @@
     },
     {
       "path": "tools/verify_package.py",
-      "bytes": 5639,
-      "sha256": "9c285a8d7249a4646bf3ecf9b65aad53ba7e5c1c4bcb9a034ed64d9e85d65b9d"
+      "bytes": 5651,
+      "sha256": "8e3e06772f2c880d5220e214c7799b1fda728caf0d9f8ed3b8bc4b27752abda9"
     },
     {
       "path": "WLSE_spp.py",

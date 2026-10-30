@@ -1,16 +1,14 @@
-# 186历元历史示例
+# Historical 186-Epoch Example
 
-这些输入取自下载副本的 `dataset/`，与课件示例配套。原始UBX位于上一层目录。
-五个测量CSV以“每列一个历元”为布局，卫星坐标每个历元占连续三列；不是每行一个历元。
+These inputs come from the downloaded `dataset/` and accompany the teaching example. The original UBX is in the parent folder. The five measurement CSV files use one column per epoch; each epoch occupies three consecutive columns in the satellite positions file.
 
-| 内容 | 文件 |
+| Content | File |
 | --- | --- |
-| 原始观测与导航 | `COM6___9600_250916_020025_blockz.obs`、同名 `.nav` |
-| 测量输入 | `pseudoranges_meas.csv`、`satellite_positions.csv`、`satellite_clock_bias.csv`、`ionospheric_delay.csv`、`tropospheric_delay.csv` |
-| 真实观测时间 | `epochs.csv`，从配套OBS提取 |
-| 接收机参考 | `NAV-HPPOSECEF.csv`，不是测量真值 |
-| 历史结果 | `reference_results/estimated_positions.csv`、`positioning_errors.csv` |
-| 其他原示例结果 | 同名 `.pos`、`.kml` |
+| Raw observations and navigation | `COM6___9600_250916_020025_blockz.obs` and the matching `.nav` |
+| Measurement inputs | `pseudoranges_meas.csv`, `satellite_positions.csv`, `satellite_clock_bias.csv`, `ionospheric_delay.csv`, `tropospheric_delay.csv` |
+| Observation times | `epochs.csv`, extracted from the matching OBS |
+| Receiver reference | `NAV-HPPOSECEF.csv`; not measurement ground truth |
+| Historical results | `reference_results/estimated_positions.csv`, `positioning_errors.csv` |
+| Other original results | Matching `.pos` and `.kml` files |
 
-默认历史模式只读取这里的配套输入，输出写入独立的 `outputs/example/`。
-原CSV没有卫星标识，所以历史复现模式与新生成的纯GPS基线应分别解释。
+The default historical mode reads these inputs and writes separately to `outputs/example/`. The original CSV files have no satellite IDs. Interpret the historical reproduction and the newly generated GPS baseline separately.

@@ -90,7 +90,7 @@ def main():
         print('PASS benchmark:',len(solved),'/',len(e),'actual OBS epochs, no reference trajectory used')
     else:
         raise AssertionError('Benchmark preprocessing has not yet been generated')
-    manifest=ROOT/'docs/文件清单.json'
+    manifest=ROOT/'docs/\u6587\u4ef6\u6e05\u5355.json'
     if manifest.exists():
         entries=json.loads(manifest.read_text(encoding='utf-8'))['files']
         for item in entries:
