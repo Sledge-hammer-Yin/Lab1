@@ -230,13 +230,13 @@
     },
     {
       "path": "examples/rinex2csv1.png",
-      "bytes": 282861,
-      "sha256": "f5534a34e2a59c45f0d69c63a2eee1d67b6cf551e5e0489baabad7648c6cf9a2"
+      "bytes": 247855,
+      "sha256": "25e41283f30d29f2fc75855f4607cfb7c2fe67dca6cdd731bb2763540606945d"
     },
     {
       "path": "examples/rinex2csv2.png",
-      "bytes": 67122,
-      "sha256": "397140c74f9304a6ff890a195535fc12cf42b74e92d35cda67650559ecd5531f"
+      "bytes": 55915,
+      "sha256": "fd2d16f29aa807e2b20297edc0f1b806713e159b7883833708800fb9579a159f"
     },
     {
       "path": "examples/rinex2csv3.png",
