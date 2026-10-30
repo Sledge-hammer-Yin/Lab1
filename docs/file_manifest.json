@@ -40,8 +40,8 @@
     },
     {
       "path": "Readme.md",
-      "bytes": 23970,
-      "sha256": "db7535a0abe90dd29c61659e0ee462b7ecdf68c988177e594365bf36b870118e"
+      "bytes": 24098,
+      "sha256": "f7970eb4aec5a1faeeb900bf25fe1c1e05f6b3f771b16dcec4cb2be319dc9c6b"
     },
     {
       "path": "WLSE_spp.py",
@@ -50,8 +50,8 @@
     },
     {
       "path": "benchmark/README.md",
-      "bytes": 860,
-      "sha256": "2ac277a13c3e526e75e15d911b44c10ae1fd69eb41db3703a3cdba859c778ca7"
+      "bytes": 910,
+      "sha256": "1cf7249f62c1ea1061cf52c34755e4d6b206e380e79070be13e821f55ed096f8"
     },
     {
       "path": "benchmark/UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs",
@@ -145,8 +145,8 @@
     },
     {
       "path": "dataset/README.md",
-      "bytes": 1008,
-      "sha256": "b06600db3fb21e48ba86f52786690c5677bdf54eefd099c25f4ad58672a6e071"
+      "bytes": 1113,
+      "sha256": "8f024250baf973a1d2164163fea4eeadb89fa99af1266d0d44ec078ac53b662d"
     },
     {
       "path": "dataset/epochs.csv",
@@ -190,33 +190,33 @@
     },
     {
       "path": "docs/data_sources.md",
-      "bytes": 3456,
-      "sha256": "a081c496ac932e20979478f010be213cbc6504fa0f86ce984cce75484ee113d9"
+      "bytes": 4368,
+      "sha256": "426f8b3b6ea408475f6182dfabecd2a4e17c8b8dc0c2ed79bba8f744953ed978"
     },
     {
       "path": "docs/local_verification.md",
-      "bytes": 3173,
-      "sha256": "074df9e2ce32e0fffbb8bc349da888414f20168623158a07c0d0bd24fe15e215"
+      "bytes": 4224,
+      "sha256": "fa91ab631d9e114c4b7d6fb2e8b314731007b014209b309bbcef6776663318c9"
     },
     {
       "path": "docs/running_instructions.md",
-      "bytes": 5678,
-      "sha256": "9dd3f3727df7f751fbe144472c37650f017b1149f7337296d721797f80d4cb1a"
+      "bytes": 6150,
+      "sha256": "99636ecfc619f5b57a002582193456744cd6216450607fd80102fb728692f42a"
     },
     {
       "path": "docs/\u672c\u5730\u9a8c\u8bc1.md",
-      "bytes": 3173,
-      "sha256": "074df9e2ce32e0fffbb8bc349da888414f20168623158a07c0d0bd24fe15e215"
+      "bytes": 4224,
+      "sha256": "fa91ab631d9e114c4b7d6fb2e8b314731007b014209b309bbcef6776663318c9"
     },
     {
       "path": "docs/\u8d44\u6599\u6765\u6e90.md",
-      "bytes": 3456,
-      "sha256": "a081c496ac932e20979478f010be213cbc6504fa0f86ce984cce75484ee113d9"
+      "bytes": 4368,
+      "sha256": "426f8b3b6ea408475f6182dfabecd2a4e17c8b8dc0c2ed79bba8f744953ed978"
     },
     {
       "path": "docs/\u8fd0\u884c\u8bf4\u660e.md",
-      "bytes": 5678,
-      "sha256": "9dd3f3727df7f751fbe144472c37650f017b1149f7337296d721797f80d4cb1a"
+      "bytes": 6150,
+      "sha256": "99636ecfc619f5b57a002582193456744cd6216450607fd80102fb728692f42a"
     },
     {
       "path": "examples/Figure_1.png",

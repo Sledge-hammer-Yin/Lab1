@@ -4,11 +4,13 @@ A comprehensive toolkit for processing GNSS UBX data files and performing Single
 
 ---
 
+<a id="&#x5feb;&#x901f;&#x5f00;&#x59cb;-quick-start"></a>
+
 ## Quick Start
 
-Course report, submission, grading and AI-use rules are retained below. The commands here provide runnable entry points.
-See [running instructions](docs/running_instructions.md) and [data sources](docs/data_sources.md).
-Run all commands from the `Lab1` directory. The numerical Python code only needs NumPy.
+This page retains the course requirements for reports, submissions, grading and AI use.
+See the [run guide](docs/%E8%BF%90%E8%A1%8C%E8%AF%B4%E6%98%8E.md) and [data sources](docs/%E8%B5%84%E6%96%99%E6%9D%A5%E6%BA%90.md).
+Run all commands from the repository root. The Python solver only requires NumPy.
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -18,13 +20,13 @@ python WLSE_spp.py --mode gps --input-dir benchmark/preprocessed_gps --output-di
 python tools/check_submission.py outputs/benchmark/G01_benchmark.csv --week 2158 --epoch-file benchmark/preprocessed_gps/epochs.csv
 ```
 
-- **Historical example:** 186/186 epochs; 2D/3D RMS differences of 37.910758/51.042844 m against the receiver reference, not ground truth.
-- **GPS benchmark:** 1437/1534 epochs solved from the included OBS/NAV-derived inputs, or 93.6767% coverage. Format and count checks do not establish accuracy or rank.
-- `dataset/` contains the 186-epoch example; `benchmark/` contains 1534-epoch UrbanNav and cleaned NAV. `benchmark/preprocessed_gps/` supports a first Python run without MATLAB.
-- `historical` reproduces the historical example; `gps` is a GPS L1 baseline, without multi-constellation support. Course requirements below still apply.
-- `G01` is an example group number; use your own. The historical `G01_owndata.csv` is not your field data.
-- The report template, third-party toolbox and workflow images come from the course materials. The figures and current non-GUI numerical outputs should be interpreted separately.
-- The checker validates headers, three-decimal coordinates, finite values, time order, course filenames and Earth-surface bounds. Final acceptance and scoring are determined by the online platform.
+- **Historical example:** 186/186 epochs; 2D/3D RMS differences of 37.910758/51.042844 m against a receiver reference, not ground truth.
+- **GPS benchmark:** 1437/1534 epochs solved (93.6767%) using the included OBS/NAV-derived cache. Coverage and format checks do not establish accuracy or rank.
+- `dataset/` contains the 186-epoch example. `benchmark/` contains 1534 UrbanNav epochs and the cleaned NAV file. `benchmark/preprocessed_gps/` lets Python run without MATLAB.
+- `historical` reproduces the example. `gps` is a GPS L1 baseline without multi-constellation positioning. The course rules below still govern reports, improvements and analysis.
+- `G01` is an example group number; replace it with yours. The example `G01_owndata.csv` is not your group's field data.
+- The two PDFs, report template, third-party toolbox and workflow images come from the course repository. Their illustrations may differ from this command-line implementation.
+- The checker validates headers, three-decimal coordinates, finite values, time order, course filenames and Earth-surface bounds. Final acceptance and grading are determined online.
 
 ## Table of Contents
 
@@ -82,7 +84,7 @@ This pipeline provides a complete workflow for GNSS data processing, from raw UB
 | Example (Block X, 2025) | UBX log, RINEX .obs/.nav, CSV files from `rinex2csv.m`, receiver solution (NAV-HPPOSECEF), example Python code | reference results provided | Warm-up and regression test: check that your code reproduces the example results |
 | UrbanNav benchmark | `UrbanNav-HK-Deep-Urban-1.ublox.f9p.obs` and `UrbanNav_20210521_multiGNSS_clean.nav` | kept by the teaching team | Accuracy challenge and leaderboard |
 
-The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/data_sources.md).
+The example data are included in [dataset/](dataset/), the runnable SPP entry point is [WLSE_spp.py](WLSE_spp.py), and the benchmark OBS/NAV and GPS input cache are in [benchmark/](benchmark/). Blackboard remains the official source of submission links and deadlines. The teaching reference trajectory is not included. UrbanNav itself is a public benchmark; see [data provenance](docs/%E8%B5%84%E6%96%99%E6%9D%A5%E6%BA%90.md).
 
 ---
 
@@ -328,7 +330,7 @@ For numerical regression, malformed-CSV checks, missing-epoch checks and package
 python tools/verify_package.py
 ```
 
-See [running instructions](docs/running_instructions.md) and [local verification](docs/local_verification.md).
+See the [run guide](docs/%E8%BF%90%E8%A1%8C%E8%AF%B4%E6%98%8E.md) and [local verification and limitations](docs/%E6%9C%AC%E5%9C%B0%E9%AA%8C%E8%AF%81.md).
 
 ## Step 5: Accuracy Challenge and Leaderboard
 
